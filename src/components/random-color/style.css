@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+button{
+    background: #fff;
+  border: navajowhite;
+  padding: 8px 10px;
+  margin: 14px 5px;
+  border-radius: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+}

@@ -1,4 +1,5 @@
 import React,{useEffect, useState} from 'react';
+import './style.css';
 
 export default function index() {
 
@@ -41,6 +42,7 @@ export default function index() {
         width: "100vw",
         height: "100vh",
         backgroundColor: color,
+        textAlign: "center",
       }}
     >
       <button onClick={() => setTypeOfColor('hex')}>Create HEX Color</button>
