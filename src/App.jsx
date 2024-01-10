@@ -4,6 +4,8 @@ import RandomColor from './components/random-color';
 import StarRating from './components/star-rating';
 import ImageSlider from './components/image-slider';
 import LoadMore from './components/load-more-button';
+import TreeView from './components/tree-view';
+import menus from './components/tree-view/data.js';
 
 function App() {
 
@@ -17,7 +19,8 @@ function App() {
         page={"1"} 
         limit={"10"}
       /> */}
-      <LoadMore/>
+      {/* <LoadMore/> */}
+      <TreeView menus={menus}/>
     </>
   )
 }
