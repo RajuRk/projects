@@ -6,6 +6,8 @@ import ImageSlider from './components/image-slider';
 import LoadMore from './components/load-more-button';
 import TreeView from './components/tree-view';
 import menus from './components/tree-view/data.js';
+import Qrcode from './components/qr-code';
+import LightDark from './components/light-dark-mode';
 
 function App() {
 
@@ -20,7 +22,9 @@ function App() {
         limit={"10"}
       /> */}
       {/* <LoadMore/> */}
-      <TreeView menus={menus}/>
+      {/* <TreeView menus={menus}/> */}
+      {/* <Qrcode/> */}
+      <LightDark/>
     </>
   )
 }
